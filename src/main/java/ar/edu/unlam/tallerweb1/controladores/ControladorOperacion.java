@@ -19,7 +19,7 @@ public class ControladorOperacion {
 		modelo.put("operacion", operacion);
 		modelo.put("numero2", numero2);
 		
-		if(operacion.equals("sumar")){
+		if(operacion.equalsIgnoreCase("sumar")){
 			return new ModelAndView("operacionExitosa", modelo);
 		}
 		
