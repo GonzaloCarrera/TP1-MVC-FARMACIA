@@ -9,7 +9,7 @@
 	<body>
 		<div class = "container">
 			<h2>Operacion Exitosa</h2>
-			<p>El resultado de ${operacion} ${numero1} y ${numero2} da ${numero1+numero2}</p>
+			<p>El resultado de la ${operacion} entre ${numero1} y ${numero2} da ${resultado}</p>
 		</div>
 		<!-- Placed at the end of the document so the pages load faster -->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js" ></script>
